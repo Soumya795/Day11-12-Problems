@@ -29,10 +29,10 @@ public class Deckofcards {
         }
     }
 
-    void shuffleDeckForPlayers()
+    void shuffleforPlayers()
     {
         for (int i = 0; i < 4; i++) {
-            System.out.println("\n Person " + (i + 1));
+            System.out.println(" Person " + (i + 1));
             for (int j = 0; j < 4; j++) {
                 System.out.println(deck[i + j * 4]);
             }
@@ -43,6 +43,6 @@ public class Deckofcards {
         Deckofcards deckOfCards = new Deckofcards();
         deckOfCards.deck();
         deckOfCards.shuffle();
-        deckOfCards.shuffleDeckForPlayers();
+        deckOfCards.shuffleforPlayers();
     }
 }
