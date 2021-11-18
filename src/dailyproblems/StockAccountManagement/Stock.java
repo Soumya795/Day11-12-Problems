@@ -26,7 +26,6 @@ import java.util.Scanner;
         }
     }
 }
-
 class StockPortfolio {
 
     ArrayList<Stock1> port = new ArrayList<>();
